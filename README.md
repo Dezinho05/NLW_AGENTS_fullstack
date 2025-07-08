@@ -15,3 +15,9 @@
 - Domain Name System/Server
 # CSS
 - Cascading Style Sheets
+## BOX MODEL
+- Inner space: padding
+- Outter space: margin
+- Content: content
+- Height: height
+- Width: width
