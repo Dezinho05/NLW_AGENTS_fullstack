@@ -1,0 +1,19 @@
+body{
+    background-image: url(./assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% auto;
+    background-color: #121214;
+    color: white;
+}
+#logo_esports{
+    position: center;
+    align-items: center;
+    
+}
+h1.title{
+    color: rgb(180, 0, 216);
+}
+a{
+    color: orange;
+}
