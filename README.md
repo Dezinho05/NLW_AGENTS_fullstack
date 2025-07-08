@@ -1,5 +1,5 @@
 # HTML
--Hypertext Markup Language
+- Hypertext Markup Language
 ## HTTP
 - Hypertext Transfer Protocol
 ## URL
