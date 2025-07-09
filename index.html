@@ -18,16 +18,16 @@
             <div>
                 <h1 class="title">Ajudante de build</h1>
                 <p>Como posso te ajudar, e em qual jogo?</p>
-                <form action="">
-                    <input type="password" placeholder="Informe a API_KEY da IA" required>
-                    <select>
+                <form id="form" action="">
+                    <input id="apikey" type="password" placeholder="Informe a API_KEY da IA" required>
+                    <select id="gameSelect">
                         <option value="">Selecione o Jogo</option>
                         <option value="valorant">Valorant</option>
                         <option value="league_of_legends">League of Legends</option>
                         <option value="bakugan">Bakugan</option>
                     </select>
-                    <input type="text" placeholder="Build mais atual para o Yasuo">
-                    <button>Perguntar</button>
+                    <input id="questionInput" type="text" placeholder="Build mais atual para o Yasuo">
+                    <button id="askButton" required>Perguntar</button>
                 </form>
                 <div id="aiResponse">
                     <div class="response-content">
@@ -38,6 +38,6 @@
             </div>
         </section>
     </main>
-
+<script src="./script.js"></script>
 </body>
 </html>

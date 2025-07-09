@@ -21,3 +21,24 @@
 - Content: content
 - Height: height
 - Width: width
+# JAVASCRIPT
+- Programming Language
+- Browsers
+- Input > Process > Output
+- Variables
+- Functions
+- Gemini (AI)
+- Data Structure
+- Decision Structure
+- Algorithms
+- Logic
+- Abstraction
+- Decomposition
+- Pattern Acknowlegment
+## Data Types
+- Number
+- String
+- Boolean
+- Object
+## DOM
+- Document Object Model
