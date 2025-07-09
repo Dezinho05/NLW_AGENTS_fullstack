@@ -15,10 +15,27 @@
     </header>
     <main>
         <section>
-            <h1 class="title">Ajudante de build</h1>
-            <p>Como posso te ajudar, e em qual jogo?</p>
+            <div>
+                <h1 class="title">Ajudante de build</h1>
+                <p>Como posso te ajudar, e em qual jogo?</p>
+                <form action="">
+                    <input type="password" placeholder="Informe a API_KEY da IA" required>
+                    <select>
+                        <option value="">Selecione o Jogo</option>
+                        <option value="valorant">Valorant</option>
+                        <option value="league_of_legends">League of Legends</option>
+                        <option value="bakugan">Bakugan</option>
+                    </select>
+                    <input type="text" placeholder="Build mais atual para o Yasuo">
+                    <button>Perguntar</button>
+                </form>
+                <div id="aiResponse">
+                    <div class="response-content">
 
-            <p>Para maiores informações: <a href="https://google.com">Google.com</a>!</p>
+                    </div>
+                </div>
+                <p class="info">Para maiores informações: <a href="https://google.com">Google.com</a>!</p>
+            </div>
         </section>
     </main>
 
