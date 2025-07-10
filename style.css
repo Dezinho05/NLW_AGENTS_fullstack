@@ -107,3 +107,37 @@ button:hover{
     box-shadow: 0 5px 1rem rgba(255,248,107,0.2);
 
 }
+
+button:disabled{
+    transition: none; /*initial*/
+    transform: initial; /*translate(0)*/
+    box-shadow: initial; /*0*/
+    cursor: wait;
+}
+
+#aiResponse{
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 0.5rem;
+    padding: 1.25rem;
+    border-left: 4px solid #43E7AD;
+}
+#aiResponse ul{
+    padding-left: 1.5rem;
+}
+#aiResponse p{
+    color: white;
+}
+
+.loading{
+    animation: pulse 2.5s infinite;
+}
+
+.hidden{
+    display: none;
+}
+
+@keyframes pulse {
+    50%{
+        opacity: 0.75;
+    }
+}

@@ -2,6 +2,8 @@
 - Hypertext Markup Language
 ## HTTP
 - Hypertext Transfer Protocol
+- Methods: GET, POST, PUT, PAT, DELETE
+- Headers: Extra instrucions for each call 
 ## URL
 - Uniform Resource Locator
     Endereço do recurso.
@@ -42,3 +44,18 @@
 - Object
 ## DOM
 - Document Object Model
+# API
+- Aplication Programming Interface
+## JSON
+- Javascript Object Notation
+# CDN
+- Content Delivery Network
+# LLM
+- Large Language Model (AI Training)
+## AI AGENTS
+- Tools: freedom to add more information
+- Better context
+## PROMPT ENGENNERING
+- One shot: One question without much context
+- Few shot: Exemples of what to expect
+- Chain of Thought: Generative Thinking
